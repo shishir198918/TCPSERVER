@@ -1,0 +1,15 @@
+GET /questions/3620558/process-raw-http-request HTTP/2
+Host: stackoverflow.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: https://www.google.com/
+Connection: keep-alive
+Cookie: prov=bd3331a1-0e17-4400-8c2d-225d7ee182b7; __gads=ID=38a9745c5807bd26:T=1732272308:RT=1743656236:S=ALNI_MZxCWewJk-X6awkW3-e6Ja3poABPw; __gpi=UID=00000f725da6c535:T=1732272308:RT=1743656236:S=ALNI_MbuhNKrts2JfWDU-iR5DI15Mu6Zpw; __eoi=ID=f1f2c8b3db2cbabc:T=1732272308:RT=1743656236:S=AA-AfjaZdJ0ioqfdq3ggvicKQ9o5; OptanonConsent=isGpcEnabled=0&datestamp=Thu+Apr+03+2025+10%3A27%3A16+GMT%2B0530+(India+Standard+Time)&version=202411.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6ea3cba6-2464-4af9-a552-fc5b4cd8ae49&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1&geolocation=IN%3BKA&AwaitingReconsent=false; g_state={"i_p":1744823880343,"i_l":4}; OptanonAlertBoxClosed=2024-11-22T10:45:14.231Z; _so_tgt=8f2a8479-96df-4fa1-938d-6479364f1bd1; _ga=GA1.2.738961413.1732274815; _ga_WCZ03SZFCQ=GS1.1.1743655267.110.1.1743656235.60.0.0; __cflb=02DiuFA7zZL3enAQJD3AX8ZzvyzLcaG7w1j8Paardd8SY; _gid=GA1.2.2106724934.1743508671; cf_clearance=mahwwospHq3eqKKKwIQwkQn7HtxYTHZ8tsYxkL4Kceo-1743656235-1.2.1.1-L8utDyLvR6PbUnaaQTeNQMWl6FDff.wl.7c2Svpmp9cc13whv6LxdThelH8Dx.wjVJRMkXbWorFRBGnqtbJSDdlU1QID8P13rKpJjbl8lIpx7c6oCSRZAZmrbkUF0Uu0tshM7LBChdpB2S3ffA_XUIq3C1DB4wEQB4ZtSNl26NVynDmiv4MtAbjL1lVUBaQuWcSh2DrXQWu0n9cPbnTYupsrfMzxFZfEh42UBQpBBqeZgUGojENR8dBz.GuDJWM4pWY1IeareOesKC2YU1wc.1EChQbgrW2qeIF6nChkvVVShoCEbUvk_qnFpl1nv_m.0r7esmsBx0qgapRC_RzC0sOX.WV9JtyqO4Q2z_l8S.8; _cfuvid=lhxXGQdm4hrFv.pKx2C7HBcDEKlbt0mkcMBKrvTLIzY-1743656235379-0.0.1.1-604800000; __cf_bm=KJI2IzIDP1dwJGybbukc0fwbO0qG7hJwJuorXafEr3A-1743656235-1.0.1.1-tnnsLH8BSuzUQjrHsnw2t7qOhXBPEznU5B4L5mJwTfiX_b9GaObhqxv8JB7rXCDqc218Dr2D7rGeNqkubKSBlRwLshJJWufD.bVpQwGXRWE
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+Sec-Fetch-User: ?1
+Priority: u=0, i

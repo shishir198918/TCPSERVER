@@ -9,27 +9,45 @@ server_socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM) # set  tcp socket
 server_socket.bind((host,port))#server_socket.bind() #associating a socket with a specific network address (IP address and port number) so that it can receive incoming connections or send data to a specific destination
 
 server_socket.listen() # backlog is optional and need to understand 
+print(f"Server listening on {host}:{port}")
 # synchronous server (take one request send response and then send anoher request)
 
-def synchronous_handling():
-    print(f"Server listening on {host}:{port}")
-    clientsocket, address = server_socket.accept() # reciving incoming connection and blocking untill
+def synchronous_handling():    
     while True:
+        clientsocket, address = server_socket.accept() # reciving incoming connection and blocking untill        
         print(f"Connected to {address}")
-        data=clientsocket.recv(1024)
-        print(data)
-        if data==b'\n':
-            print("No data send") 
-            break
-        #print(f"Nahi nahi ! {data.docode()}")
-
-        clientsocket.sendall(f"Nahi nahi app ! {data.decode()}".encode())
+        while True:
+            
+            data=clientsocket.recv(1024)
+            print(data)
+            if data==b'\n':
+                print("No data send")
+                print(f"client close having adress:- {address}")   
+                clientsocket.close() 
+                break
+            #print(f"Nahi nahi ! {data.docode()}")
+            clientsocket.sendall(f"hi recived ! {data.decode()}".encode())
                
+            
 
-    print(f"client close having adress:- {address}")   
-    clientsocket.close()    
+#synchronous_handling()
 
-synchronous_handling()
+
+def data_recv(client_socket,buffer_size ):
+    while True:
+        data=client_socket.recv(buffer_size)
+        if not data:
+
+            break
+        yield data
+
+
+
+def parse_http(data):
+    #paring the request 
+    pass
+def line_sep(text):
+    pass
 
 
 
